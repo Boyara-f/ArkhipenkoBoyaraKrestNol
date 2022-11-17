@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/outGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="155dp"
+        android:text="ходит Х" />
+
+    <TableLayout
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn00"
+                android:onClick="onCLick"
+                android:layout_margin="5dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn01"
+                android:onClick="onCLick"
+                android:layout_margin="5dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn02"
+                android:onClick="onCLick"
+                android:layout_margin="5dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn10"
+                android:onClick="onCLick"
+                android:layout_margin="5dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn11"
+                android:onClick="onCLick"
+                android:layout_margin="5dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn12"
+                android:onClick="onCLick"
+                android:layout_margin="5dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="117dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn20"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="5dp"
+                android:onClick="onCLick" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn21"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="5dp"
+                android:onClick="onCLick" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn22"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="5dp"
+                android:onClick="onCLick" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="117dp"
+            android:baselineAligned="true">
+
+            <Button
+                android:id="@+id/btnStart"
+                android:onClick="onClickStart"
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"
+                android:text="заново" />
+
+
+        </TableRow>
+    </TableLayout>
+
+
+
+</RelativeLayout>
